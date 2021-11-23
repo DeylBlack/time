@@ -1,27 +1,36 @@
-# Timemanagement
+# Hello, this is tutorial for angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.12.
+## This is list of general commands for angular:
 
-## Development server
+run `npm install` or `npm i` for install packages
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+run `npm start` for start server. After compiling you can open browser
+and insert in search string `localhost:4200` and you should see your application.
 
-## Code scaffolding
+run `npm test` for start all tests build
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+run `ng generete component 'component name'` for create new component
 
-## Build
+## How work with branches in this project
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+`master` is main branch. You should create new branches from `master`. When you created
+a new branch and completed task, you should `push` this branch into `main` branch
 
-## Running unit tests
+## This is list of general commands for git
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+run `git status` for check status your branch
 
-## Running end-to-end tests
+run `git checkout` for change local branch
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+run `git pull origin 'branch name'` for pull code from 'branch name'
 
-## Further help
+run `git push origin 'branch name'` for push code into 'branch name'
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+run `git add .` for add all changed files to commit
+
+run `git commit -m "commit message"` for create commit
+
+run `git reset HEAD~1` for reset commit
+
+run `git log` for check all commits messages of your branch
+
