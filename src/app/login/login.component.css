@@ -1,0 +1,76 @@
+
+.registration {
+  border: 5px ridge #C0C0C0;
+  border-radius: 10px;
+  width: 450px;
+  height: 630px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:50px;
+}
+.heading{
+  text-align: center;
+  font-family:Calibri;
+  font-size: 35px;
+  color:#303030;
+}
+imput{
+
+}
+.signupbtn {
+  background-color: #A52019;
+  color: #C0C0C0;
+  padding: 14px 20px;
+  margin-top: 8px ;
+  margin-left: 90px;
+  border: none;
+  cursor: pointer;
+  width: 60%;
+  opacity: 0.9;
+  border-radius:10px ;
+  font-size: 15px;
+}
+.signupbtn:hover {
+  opacity:3;
+}
+input[type=text], input[type=email],input[type=password] {
+  width: 80%;
+  padding: 15px;
+  margin: 5px 30px 22px 30px;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+input[type=text]:hover{
+  border: 1.5px solid #B22222;
+  opacity:1.0;
+}
+
+input[type=email]:hover{
+  border: 1.5px solid #B22222;
+  opacity:1.0;
+}
+input[type=password]:hover{
+  border: 1.5px solid  #B22222;
+  opacity:1.0;
+}
+.zapomnit{
+  margin-left: 30px;
+}
+
+.vxod{
+  background-color: #A52019;
+  color: #C0C0C0;
+  padding: 14px 20px;
+  margin-left:90px;
+  border: none;
+  cursor: pointer;
+  width: 60%;
+  opacity: 0.9;
+  border-radius:10px ;
+  font-size: 15px;
+}
+
+.vxod:hover {
+  opacity: 4;
+}

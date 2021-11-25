@@ -1,1 +1,18 @@
-<p>login works!</p>
+
+
+<ng-container *ngIf="isLogin; else signIn">
+  <div class="registration" >
+  <h1 class="heading" style="border-bottom: solid 2px #C0C0C0  ;"> Регистрация </h1>
+  <input type="text" name="name" required  placeholder="Введите имя">
+  <p><input type="email" name="email" required  placeholder="Введите email"> </p>
+  <p><input type="password" name="pass" placeholder="Введите пароль"></p>
+  <p> <input type="password" required placeholder="Повторите пароль" name="psw-repeat"></p>
+  <label>
+    <input type="checkbox" checked="checked" name="remember" class="zapomnit" > Запомнить меня
+  </label>
+  <p><button type="submit" class="signupbtn">Регистрация</button></p>
+  <button type="submit" class="vxod" (click)="isLogin = !isLogin">Вход</button>
+</div>
+</ng-container>
+<ng-template #signIn> <button (click)="isLogin = !isLogin" >test</button></ng-template>
+
