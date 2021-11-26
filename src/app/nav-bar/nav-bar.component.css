@@ -1,0 +1,23 @@
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  font-family:Arial Black;
+  margin-right: 40px;
+  font-size: 19px;
+}
+
+p {
+  float: right;
+}
+
+p a {
+  display: block;
+  text-align: center;
+  padding: 5px 25px;
+  text-decoration: none;
+  color: black;
+}
+
+p a:hover {
+  color: #A52019;
+}
