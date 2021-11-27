@@ -1,6 +1,6 @@
 <ng-container *ngIf="isLogin; else signIn">
   <div class="registration">
-  <h1 class="heading" style="border-bottom: solid 2px #C0C0C0;"> Регистрация </h1>
+  <h1 class="heading" style="border-bottom: solid 2px #C0C0C0;"> Sign up </h1>
   <input type="text" name="name" required  placeholder="Введите имя">
   <p><input type="email" name="email" required  placeholder="Введите email"> </p>
   <p><input type="password" name="pass" placeholder="Введите пароль"></p>
@@ -8,22 +8,38 @@
   <label>
     <input type="checkbox" checked="checked" name="remember" class="remember" > Запомнить меня
   </label>
-  <p><button type="submit" class="sign-up-button">Регистрация</button></p>
-  <button type="submit" class="log-in" (click)="isLogin = !isLogin">Вход</button>
+  <time-button
+    [text]="'Sign Up'">
+  </time-button>
+
+  <div class="is-sign-in">
+    <p
+      (click)="isHaveAccount()">
+      Already have an account? You can log in
+    </p>
+  </div>
+
 </div>
 </ng-container>
 
 <ng-template #signIn>
   <div class="registration">
-    <h1 class="heading" style="border-bottom: solid 2px #C0C0C0;"> Вход </h1>
+    <h1 class="heading" style="border-bottom: solid 2px #C0C0C0;"> Log In </h1>
     <input type="text" name="name" required  placeholder="Введите имя">
     <p><input type="email" name="email" required  placeholder="Введите email"> </p>
     <p><input type="password" name="pass" placeholder="Введите пароль"></p>
     <label>
       <input type="checkbox" checked="checked" name="remember" class="remember" > Запомнить меня
     </label>
-    <p><button type="submit" class="sign-up-button" (click)="isLogin = !isLogin">Регистрация</button></p>
-    <button type="submit" class="log-in" (click)="isLogin = !isLogin" >Вход</button>
+    <time-button
+      [text]="'Sign In'">
+    </time-button>
+    <div class="is-sign-in">
+      <p
+        (click)="isHaveAccount()">
+        Don't have an account? You can sign up
+      </p>
+    </div>
+
   </div>
 </ng-template>
-
