@@ -13,4 +13,8 @@ export class LoginComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  isHaveAccount(): void {
+    this.isLogin = !this.isLogin;
+  }
+
 }

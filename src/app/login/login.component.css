@@ -8,29 +8,10 @@
   margin-top:50px;
 }
 
-.heading{
+.heading {
   text-align: center;
-  font-family:Calibri;
   font-size: 35px;
   color:#303030;
-}
-
-.sign-up-button {
-  background-color: #A52019;
-  color: #C0C0C0;
-  padding: 14px 20px;
-  margin-top: 8px ;
-  margin-left: 90px;
-  border: none;
-  cursor: pointer;
-  width: 60%;
-  opacity: 0.9;
-  border-radius:10px ;
-  font-size: 15px;
-}
-
-.sign-up-button:hover {
-  opacity:3;
 }
 
 input[type=text], input[type=email],input[type=password] {
@@ -74,6 +55,10 @@ input[type=password]:hover{
   font-size: 15px;
 }
 
-.vxod:hover {
-  opacity: 4;
+.is-sign-in {
+  display: flex;
+}
+
+.is-sign-in p {
+    margin: 20px auto;
 }
