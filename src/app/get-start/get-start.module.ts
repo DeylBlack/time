@@ -1,6 +1,7 @@
 import {NgModule} from "@angular/core";
 import {GetStartComponent} from "./get-start.component";
 import {GetStartRoutingModule} from "./get-start-routing.module";
+import {MatSidenavModule} from '@angular/material/sidenav';
 
 @NgModule({
   declarations: [
@@ -8,6 +9,7 @@ import {GetStartRoutingModule} from "./get-start-routing.module";
   ],
   imports: [
     GetStartRoutingModule,
+    MatSidenavModule,
   ],
   providers: [],
 })
