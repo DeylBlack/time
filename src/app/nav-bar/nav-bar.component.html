@@ -1,7 +1,9 @@
 <div class="Menu">
   <ul>
-      <p><a routerLink="/login">Вход/Регистрация</a></p>
-      <p><a routerLink="/get-start">Начать работу</a></p>
-      <p><a href="">Главная</a></p>
+    <p><a *ngIf="!isLogin" routerLink="/login">Вход/Регистрация</a></p>
+    <p><a routerLink="/get-start">Начать работу</a></p>
+    <p><a href="">Главная</a></p>
+
+    <app-user-account-preview></app-user-account-preview>
   </ul>
 </div>
