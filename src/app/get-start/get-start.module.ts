@@ -1,6 +1,7 @@
-import {NgModule} from "@angular/core";
-import {GetStartComponent} from "./get-start.component";
-import {GetStartRoutingModule} from "./get-start-routing.module";
+import { NgModule } from '@angular/core';
+
+import { GetStartComponent } from './get-start.component';
+import { GetStartRoutingModule } from './get-start-routing.module';
 
 @NgModule({
   declarations: [

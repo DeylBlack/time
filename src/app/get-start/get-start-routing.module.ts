@@ -1,6 +1,7 @@
-import {NgModule} from "@angular/core";
-import {RouterModule, Routes} from "@angular/router";
-import {GetStartComponent} from "./get-start.component";
+import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
+
+import { GetStartComponent } from './get-start.component';
 
 const routes: Routes = [
   {
