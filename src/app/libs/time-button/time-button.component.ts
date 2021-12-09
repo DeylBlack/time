@@ -1,16 +1,16 @@
-import {Component, Input, OnInit} from "@angular/core";
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'time-button',
   templateUrl: './time-button.component.html',
   styleUrls: ['./time-button.component.css'],
 })
-export class TimeButtonComponent implements OnInit {
+export class TimeButtonComponent {
 
-  @Input() text: string = '';
-
-  ngOnInit(): void {
-
-  }
+  @Input() textButton = '';
+  @Input() widthButton = '';
+  @Input() textColor = '';
+  @Input() backgroundColor = '';
+  @Input() heightButton = '';
 
 }

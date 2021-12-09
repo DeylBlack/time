@@ -1,12 +1,8 @@
 .sign-up-button {
   background-color: #A52019;
   color: #C0C0C0;
-  padding: 14px 20px;
-  margin-top: 8px ;
-  margin-left: 90px;
   border: none;
   cursor: pointer;
-  width: 60%;
   opacity: 0.9;
   border-radius:10px ;
   font-size: 15px;
