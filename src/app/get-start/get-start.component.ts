@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-get-start',
+  selector: 'time-get-start',
   templateUrl: './get-start.component.html',
   styleUrls: ['./get-start.component.css']
 })
