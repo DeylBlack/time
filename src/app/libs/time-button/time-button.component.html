@@ -1,1 +1,7 @@
-<button class="sign-up-button">{{ text }}</button>
+<button class="sign-up-button"
+        [ngStyle]="{
+          width: widthButton,
+          color: textColor,
+          background: backgroundColor,
+          height: heightButton
+          }">{{ textButton }}</button>

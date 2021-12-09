@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
+import { StoryControlsComponent } from './story-controls/story-controls.component';
+
 const routes: Routes = [
   {
     path: 'login',
@@ -12,6 +14,10 @@ const routes: Routes = [
     loadChildren: () => import('./get-start/get-start.module')
       .then(m => m.GetStartModule),
   },
+  {
+    path: 'story',
+    component: StoryControlsComponent,
+  }
 ];
 
 @NgModule({
