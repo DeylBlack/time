@@ -1,4 +1,4 @@
-import {Component, Input, OnInit} from "@angular/core";
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'time-button',
@@ -7,7 +7,7 @@ import {Component, Input, OnInit} from "@angular/core";
 })
 export class TimeButtonComponent implements OnInit {
 
-  @Input() text: string = '';
+  @Input() text = '';
 
   ngOnInit(): void {
 
