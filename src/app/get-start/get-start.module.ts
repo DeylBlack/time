@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { MatSidenavModule } from '@angular/material/sidenav';
 
 import { GetStartComponent } from './get-start.component';
 import { GetStartRoutingModule } from './get-start-routing.module';
@@ -9,6 +10,7 @@ import { GetStartRoutingModule } from './get-start-routing.module';
   ],
   imports: [
     GetStartRoutingModule,
+    MatSidenavModule,
   ],
   providers: [],
 })
