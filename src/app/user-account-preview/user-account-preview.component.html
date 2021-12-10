@@ -1,0 +1,13 @@
+<a routerLink="/user"
+   class="user-link">
+  <div *ngIf="user.id"
+       class="user-account">
+
+    <img [src]="user.photoUrl">
+
+    <div class="user-name">
+      <p>{{user.firstName}}</p>
+      <p>{{user.lastName}}</p>
+    </div>
+  </div>
+</a>

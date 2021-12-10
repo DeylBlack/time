@@ -9,11 +9,10 @@ import { TimeButtonModule } from '../libs/time-button/time-button.module';
   declarations: [
     LoginComponent,
   ],
-    imports: [
-        CommonModule,
-        LoginRoutingModule,
-        TimeButtonModule,
-    ],
-  providers: [],
+  imports: [
+      CommonModule,
+      LoginRoutingModule,
+      TimeButtonModule,
+  ],
 })
 export class LoginModule {}

@@ -62,3 +62,20 @@ input[type=password]:hover{
 .is-sign-in p {
     margin: 20px auto;
 }
+
+.with-google {
+  display: flex;
+  flex-direction: column;
+}
+
+.with-google p {
+  margin: 0 auto;
+}
+
+.google-auth {
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 200px;
+  height: 40px;
+}
