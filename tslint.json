@@ -49,7 +49,9 @@
       "info",
       "time",
       "timeEnd",
-      "trace"
+      "trace",
+      "log",
+      "warning"
     ],
     "no-empty": false,
     "no-inferrable-types": [
@@ -118,7 +120,8 @@
         "check-operator",
         "check-separator",
         "check-type",
-        "check-typecast"
+        "check-typecast",
+        "check-module"
       ]
     },
     "component-class-suffix": true,
@@ -145,7 +148,7 @@
     "component-selector": [
       true,
       "element",
-      "app",
+      "time",
       "kebab-case"
     ]
   }

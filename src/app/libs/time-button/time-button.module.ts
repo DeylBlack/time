@@ -1,6 +1,7 @@
-import {NgModule} from '@angular/core';
-import {TimeButtonComponent} from './time-button.component';
-import {CommonModule} from '@angular/common';
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+
+import { TimeButtonComponent } from './time-button.component';
 
 @NgModule({
   declarations: [
