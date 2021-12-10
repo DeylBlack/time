@@ -1,16 +1,60 @@
 .example-container {
-  width: 500px;
-  height: 300px;
-  border: 1px solid rgba(0, 0, 0, 0.5);
+  width: 600px;
+  height: 100%;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  background-color:#6495ED;
 }
 
 .example-sidenav-content {
   display: flex;
   height: 100%;
+  width: 500px;
   align-items: center;
   justify-content: center;
 }
-
+.menu {
+  text-align: center;
+  color: #A52019;
+}
 .example-sidenav {
   padding: 20px;
+}
+
+.photo-article {
+  width: 33px;
+  height: 33px;
+  border:1.5px solid #C0C0C0;
+  border-radius: 50%;
+  margin-top: -27px;
+  margin-left: 0px;
+  background-image: url(https://pp.userapi.com/c846419/v846419143/e5480/ZJR960CoCcM.jpg?ava=1);
+}
+
+.photo-article::after {
+  color: #FF1493;
+  margin-left: -15px;
+}
+
+.account {
+  margin-left: 50px;
+}
+
+.day, .month, .year {
+  background-color: #A52019;
+  margin-left: 0px;
+  color: #C0C0C0;
+  padding: 6px 10px;
+  border: none;
+  cursor: pointer;
+  width: 150px;
+  height: 35px;
+  opacity: 0.9;
+  border-radius:10px ;
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+.hamburger {
+  margin-top: -700px;
+  margin-left: -393px;
 }
