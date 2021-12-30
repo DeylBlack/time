@@ -1,0 +1,142 @@
+.background {
+  border: 3px solid white;
+  width: 100%;
+  height: 120px;
+  background: linear-gradient( 90deg, #4279c2, #00BFFF,#7FFFD4,
+  #AFEEEE,#E0FFFF);
+}
+.avatar {
+  border: 3px solid white ;
+  width: 100px;
+  height: 100px;
+  margin-left:200px;
+  margin-top: -85px;
+  border-radius: 50%;
+  background: url(https://cs6.pikabu.ru/avatars/1836/v1836554-858474625.jpg) ;
+}
+.name {
+  margin-top: 110px;
+  font-size: 30px;
+  margin-right: -50px;
+  margin-left:-30px ;
+}
+.button {
+  background-color: #d9d9d9;
+border: none;
+  margin-top: 65px;
+  margin-left: 235px;
+  font-size: 20px;
+}
+.intel{
+  border: 2px solid #666;
+  margin-left: 230px;
+  width: 350px;
+  height: 600px;
+  margin-top: 40px;
+  font-size: 24px;
+}
+.intelligence {
+  margin-top: 50px;
+  margin-left: 15px;
+  color: #666;
+  font-size: 19px;
+}
+.web-developer {
+  margin-top: 20px;
+  margin-left: 30px;
+  color: #666;
+}
+.your-took {
+  margin-top: 20px;
+  margin-left: 30px;
+  color: #666;
+}
+.your-organization {
+  margin-top: 20px;
+  margin-left: 30px;
+  color: #666;
+}
+.your-location {
+  margin-top: 20px;
+  margin-left: 30px;
+  color: #666;
+}
+.сontact-details {
+  margin-top: 30px;
+  margin-left: 30px;
+  color: #666;
+  font-size: 19px;
+}
+.mail {
+  margin-top: 20px;
+  margin-left: 30px;
+  color: #666;
+}
+.teams {
+  margin-top: 30px;
+  margin-left: 30px;
+  color: #666;
+  font-size: 19px;
+}
+.create-a-new-team {
+  margin-top: 20px;
+  margin-left: 30px;
+  color: #666;
+}
+.privacy {
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #666;
+}
+.work {
+  margin-left: 800px;
+  margin-top: -740px;
+  font-size: 25px;
+}
+
+.user-access {
+  margin-left: 800px;
+  margin-top: -20px;
+  color: #666;
+  font-size: 18px;
+}
+
+.at-work {
+  border: 2px solid #666;
+  margin-left: 800px;
+  width: 600px;
+  height: 350px;
+  margin-top: 10px;
+  font-size: 24px;
+
+}
+.places-where-you-work1 {
+  border: 2px solid #666;
+  margin-left: 800px;
+  width: 600px;
+  height: 100px;
+  margin-top: 30px;
+  font-size: 24px;
+}
+.places-where-you-work {
+  margin-left: 800px;
+  font-size: 25px;
+  margin-top: 30px;
+}
+.places-where-you-work2 {
+  border: 2px solid #666;
+  width: 600px;
+  height: 100px;
+  margin-left: 800px;
+  font-size: 25px;
+  margin-top: 10px;
+}
+.who-do-you-work-with2 {
+  margin-left: 800px;
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+
+
